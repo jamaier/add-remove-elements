@@ -8,10 +8,11 @@ window.addEventListener( "load", function() {
   
   const img = document.createElement("img");
   img.src = "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/202984001/900";
+  img.alt = "This is an image of a Multicolored Tanager bird from birdsoftheworld.org";
+  img.style = "width:50%"
 
   const secondH1 = document.createElement("h1");
   secondH1.append("Facts about the Multicolored Tanager");
-
 
   const li1 = document.createElement("li");
   li1.append("It is endemic to the mountains of Colombia.");
